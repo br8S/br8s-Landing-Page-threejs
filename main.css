@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     height: 100vh;
@@ -18,10 +23,11 @@ li {
     display: inline-block;
 }
 
-header{
+.section1{
     margin: 0;
     padding: 0;
     background-color: black;
+    overflow: hidden;
 }
 
 .socials { 
@@ -30,20 +36,6 @@ header{
     text-align: center;
     z-index: 2;
 }
-
-.socials .BR8S-logo a {
-    background-image: url("images/br8SLOGO_dropShadow.png");
-    display: inline-block;
-    background-size: 300px;
-    background-repeat: no-repeat;
-    text-transform: uppercase;
-    height: 100px;
-    position: relative;
-    text-indent: -999999999px;
-    top: -100px;
-    width: 300px;
-}
-
 
 .socials .youtube-logo a {
     background-image: url("images/yt.png");
