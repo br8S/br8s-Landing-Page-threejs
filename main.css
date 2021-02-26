@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+}
+
+canvas{
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* gets rid of bullet points in list */
+}
+
+li {
+    display: inline-block;
+}
+
+.section1{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+.socials { 
+    position: relative;
+    top: 700px;
+    text-align: center;
+    z-index: 2;
+}
+
+.socials .youtube-logo a {
+    background-image: url("images/yt.png");
+    display: inline-block;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    height: 50px;
+    position: relative;
+    text-indent: -999999999px;
+    top: 40px;
+    width: 45px;
+}
+
+.socials .youtube-logo a:hover {
+    background-image: url("images/yt-white.png");
+    background-size: 45px;
+    top: 36px;
+}
+
+.socials .twitter-logo a {
+    background-image: url("images/twit.png");
+    display: inline-block;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    height: 50px;
+    position: relative;
+    text-indent: -999999999px;
+    top: 40px;
+    width: 45px;
+}
+
+.socials .twitter-logo a:hover {
+    background-image: url("images/twit-white.png");
+    background-size: 45px;
+    top: 36px;
+    
+}
+
+.socials .instagram-logo a {
+    background-image: url("images/insta.png");
+    display: inline-block;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    height: 50px;
+    position: relative;
+    text-indent: -999999999px;
+    top: 37px;
+    width: 45px;
+}
+
+.socials .instagram-logo a:hover {
+    background-image: url("images/insta-white.png");
+    
+}
+
+.socials .soundcloud-logo a {
+    background-image: url("images/sndcld.png");
+    display: inline-block;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    height: 50px;
+    position: relative;
+    text-indent: -999999999px;
+    top: 37px;
+    width: 45px;
+}
+
+.socials .soundcloud-logo a:hover {
+    background-image: url("images/sndcld-white.png");
+    background-size: 50px;
+    top: 33px;
+    
+}
